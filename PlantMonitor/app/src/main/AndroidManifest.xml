@@ -17,7 +17,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".OptionSelection" />
-        <activity android:name=".newuser"></activity>
+        <activity android:name=".newuser" />
+        <activity android:name=".account" />
+        <activity android:name=".View" />
+        <activity android:name=".PlantView"></activity>
     </application>
 
 </manifest>
