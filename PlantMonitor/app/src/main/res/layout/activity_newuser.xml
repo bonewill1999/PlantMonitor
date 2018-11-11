@@ -102,8 +102,10 @@
             android:background="@android:color/white"
             android:ems="10"
             android:inputType="textEmailAddress"
-            tools:layout_editor_absoluteX="98dp"
-            tools:layout_editor_absoluteY="363dp" />
+            android:focusableInTouchMode="true"
+            app:layout_constraintStart_toStartOf="@+id/email"
+            app:layout_constraintTop_toBottomOf="@+id/email" />
+
 
         <EditText
             android:id="@+id/firstnameinput"
@@ -112,6 +114,7 @@
             android:ems="10"
             android:background="@android:color/white"
             android:inputType="textPersonName"
+            android:focusableInTouchMode="true"
             app:layout_constraintStart_toStartOf="@+id/firstname"
             app:layout_constraintTop_toBottomOf="@+id/firstname" />
 
@@ -135,6 +138,7 @@
             android:ems="10"
             android:background="@android:color/white"
             android:inputType="textPersonName"
+            android:focusableInTouchMode="true"
             app:layout_constraintBottom_toTopOf="@+id/username"
             app:layout_constraintStart_toStartOf="@+id/username" />
 
@@ -146,8 +150,8 @@
             android:layout_marginRight="2dp"
             android:ems="10"
             android:background="@android:color/white"
-            android:background="@android:color/white"
             android:inputType="textPersonName"
+            android:focusableInTouchMode="true"
             app:layout_constraintEnd_toEndOf="@+id/lastnameinput"
             app:layout_constraintTop_toBottomOf="@+id/username" />
 
