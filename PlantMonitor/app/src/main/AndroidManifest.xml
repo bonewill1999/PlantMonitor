@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OptionSelection"></activity>
+        <activity android:name=".OptionSelection" />
+        <activity android:name=".newuser"></activity>
     </application>
 
 </manifest>
