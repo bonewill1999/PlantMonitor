@@ -4,16 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/Background"
+    android:background="@drawable/background"
     tools:context=".OptionSelection">
 
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="27dp"
+        android:layout_height="65dp"
         android:text="TextView"
+        android:textSize="40dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="171dp" />
+        tools:layout_editor_absoluteY="36dp"
+        tools:text="View My Plants" />
 </android.support.constraint.ConstraintLayout>
